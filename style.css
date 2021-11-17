@@ -55,8 +55,11 @@ h2::after {
 .container{
 
     width: 1120px;
+    min-height: 780px;
 
     margin: 80px auto;
+    display: flex;
+    flex-grow: 1;
     
 }
 
@@ -70,9 +73,10 @@ ul{
 
 li{
     width: 350px;
+    height: 354px;
 
     background-color: #fff;
-    padding: 63px 52px 47px 37px;
+    padding: 48px 52px 47px 37px;
     border-radius: 20px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     box-sizing: border-box;
@@ -80,11 +84,11 @@ li{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-bottom: 37px;
+  
 
 }
 img{
-    height: 95px;
+    height: 80px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
